@@ -5,9 +5,11 @@ import "fmt"
 func main() {
 	fmt.Println("Welcome To The Quiz")
 
-	var name string = "Tim"
+	fmt.Printf("Enter Your Name: ")
 
+	var name string
+	fmt.Scan(&name)
 	// Auto determine the type same thing as var
 	// name := "Joe"
-	fmt.Println(name)
+	fmt.Printf("Wassup, %v, Welcome to the game!", name)
 }
