@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Welcome To The Quiz")
+	fmt.Println("-----------------------")
 
 	fmt.Printf("Enter Your Name: ")
 
